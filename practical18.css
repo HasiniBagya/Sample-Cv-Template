@@ -1,0 +1,139 @@
+*{
+	box-sizing:border-box;
+}
+
+/* div{
+	border: 1px solid black;
+} */
+
+body{
+	background-color:#eaf2f6;
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	text-align:center;
+}
+
+.card1{
+	background-color:#FFFFFF ;
+box-shadow:2px 2px 30px darkgrey;
+	padding:15px;
+	text-align:left;
+	margin:10px;
+	width:100%;
+
+}
+.leftcolumn{
+	text-align:left;
+	padding:3px;
+	width:25%;
+	margin:0;
+	float:left;
+}
+
+.rightcolumn{
+	text-align:right;
+	padding:3px;
+	width:75%;
+	margin:0;
+	float:left;
+	position: sticky;
+	top: 0px;
+}
+
+.fa{
+	padding: 5px;
+	color:#21897E;
+}
+.container{
+	width:100%;
+	background-color:#CECCCC;
+	border-radius: 0 15px 15px 0;
+}
+.skills{
+	text-align:right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color:black;
+	border-radius: 0 15px 15px 0;
+	font-size: 10pt;
+
+}
+.html{width: 90%; background-color: #21897E;}
+.css{width: 30%; background-color: #21897E;}
+.dsg{width: 60%; background-color: #21897E;}
+.abc{width: 20%; background-color: #21897E;}
+
+.hdf{width: 80%; background-color: #21897E;}
+.cde{width: 20%; background-color: #21897E;}
+
+.img2{
+	text-align:right;
+	width:100%;
+	
+}
+.card2{
+	background-color:#FFFFFF;
+	box-shadow:2px 2px 30px darkgrey;
+	padding:5px;
+	text-align:left;
+	width:100%;
+	text-align:left;
+	float:left;
+	margin:15px;
+margin-bottom: 2px;
+	
+}
+.card3{
+	background-color:#FFFFFF;
+	box-shadow:2px 2px 30px darkgrey;
+	padding:5px;
+	text-align:left;
+	width:100%;
+	text-align:left;
+	float:right;
+	margin:15px;
+	margin-left: 20px;
+}
+
+.row:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.footer{
+	padding:3px;
+	text-align:center;
+	float: left;
+	font-size:15px;
+	background-color:#21897E;
+	color:black;
+	width:100%;	
+	margin: 10px;
+}
+.footer .fa{
+	color: black;
+}
+
+.container{
+            position:relative;
+            max-width:800px;
+            margin:0 auto;
+            
+        }
+        .container img{vertical-align: middle;
+        
+    }
+
+        .container .content{
+            position:absolute;
+            bottom:0;
+            background:rgb(0,0,0);
+            background:rgba(0,0,0,0.5);
+            color:#f1f1f1;
+            width:100%;
+            padding: 20px;
+        }
